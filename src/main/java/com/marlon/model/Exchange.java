@@ -20,7 +20,7 @@ public class Exchange implements Serializable {
     @Column(name = "to_currency", nullable = false, length = 3)
     private String to;
 
-    @Column(name = "conversion_factory", nullable = false)
+    @Column(name = "conversion_factor", nullable = false)
     private BigDecimal conversionFactor;
 
     @Transient
